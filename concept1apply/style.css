@@ -38,10 +38,12 @@
 
 .banner-container{
     display: flex;
+    color: white;
     justify-content: space-around;
     height: 100vh;
     border: 2px solid red;
     align-items: center;
+    background-image: url("./images/background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 49, 49));
 
 
 
