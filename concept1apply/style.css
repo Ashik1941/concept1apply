@@ -41,10 +41,36 @@
     color: white;
     justify-content: space-around;
     height: 100vh;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     align-items: center;
     background-image: url("./images/background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 49, 49));
 
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.description{
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
 
-
+.about-logo{
+    width: 200px;
+}
+h1{
+    text-align: center;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
 }
