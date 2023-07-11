@@ -29,7 +29,7 @@
 .menu:hover{
     color: navy;
 }
-#banner-img{
+.banner-img{
     width: 300px;
 
 }
@@ -63,14 +63,28 @@
     border: none;
     border-radius: 5px;
 }
-
-.about-logo{
-    width: 200px;
-}
-h1{
-    text-align: center;
-}
 .about-container{
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 10px;
 }
+.about-title{
+    text-align: center;
+    padding-top:20px;
+
+}
+.box{
+    width: 230px;
+    height: 250px;
+    box-shadow: 4px 4px 15px grey;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+.icon{
+    width: 70px;
+}
+
